@@ -1,5 +1,12 @@
 .caixa-quadrada-cor {
-    background-color: rgb(38, 248, 27);
-    width: 100px;
-    height: 100px;
+    
+    background-color: rgb(203, 134, 253);
+    width: 500px;
+    height: 500px;
+}
+.caixa-quadrada-cor {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+
 }
