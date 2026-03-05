@@ -1,12 +1,61 @@
-.caixa-quadrada-cor {
-    
-    background-color: rgb(203, 134, 253);
-    width: 500px;
-    height: 500px;
+body {
+  background-color: #f4f4f4;
+  font-family: 'Quicksand', sans-serif;
 }
-.caixa-quadrada-cor {
-  display: block;
-  margin: 0 auto;
-  border-radius: 10px;
 
+.caixa-quadrada-cor {
+  background-color: rgb(203, 134, 253);
+  width: 400px;              /* Diminuí a largura */
+  height: 520px;
+  margin: 50px auto;         /* Centraliza na página */
+  border-radius: 15px;
+  position: relative;
+  text-align: center;
+  padding-top: 30px;
+}
+
+/* Imagem redonda */
+img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Nome */
+.nome {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Descrição */
+.descricao {
+  width: 70%;              /* Aqui diminuí a largura do texto */
+  margin: 20px auto;       /* Centraliza o texto */
+  font-size: 16px;
+}
+
+button {
+  margin-top: 20px;           /* Espaço acima do botão */
+  padding: 12px 25px;         /* Espaço interno (altura e largura) */
+
+  background-color: #fdc173;  /* Cor laranja combinando com Garfield */
+  color: rgb(0, 0, 0);               /* Cor do texto */
+
+  border: none;               /* Remove borda padrão */
+  border-radius: 25px;        /* Deixa arredondado */
+
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;            /* Muda o mouse ao passar por cima */
+
+  transition: 0.3s;           /* Animação suave */
+}
+
+button:hover {
+  background-color: #bafdbd;  /* Laranja mais forte */
+  transform: scale(1.05);     /* Cresce levemente */
 }
